@@ -1,0 +1,10 @@
+target/
+build/
+out/
+output/
+dist/
+
+.misc/
+
+.env
+!.env.public
