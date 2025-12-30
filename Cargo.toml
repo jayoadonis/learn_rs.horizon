@@ -1,0 +1,5 @@
+[workspace]
+members = [
+  "x00_beginner/*"
+]
+resolver = "3"

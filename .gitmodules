@@ -1,0 +1,3 @@
+[submodule "x00_beginner/x00_setup"]
+	path = x00_beginner/x00_setup
+	url = https://github.com/jayoadonis/learn_rs.horizon.x00_beginner.x00_setup.git
