@@ -1,0 +1,14 @@
+[package]
+name = "x01_data_handling"
+version = "0.0.0"
+edition = "2024"
+
+[lib]
+crate-type = [
+  "rlib", "cdylib"
+]
+path = "src/main/rs/x01_data_handling/lib.rs"
+
+[[test]] #REM: integration test
+name = "x01_data_handling_test"
+path = "src/test/rs/x01_data_handling/lib.rs"

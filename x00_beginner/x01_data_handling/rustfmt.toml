@@ -1,0 +1,13 @@
+
+max_width = 80
+hard_tabs = false
+tab_spaces = 2
+
+brace_style = "SameLineWhere"
+newline_style = "Auto"
+control_brace_style = "AlwaysSameLine"
+imports_layout = "Vertical"
+fn_params_layout = "Tall"
+remove_nested_parens = true
+
+unstable_features = true
