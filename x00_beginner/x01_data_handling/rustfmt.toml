@@ -2,6 +2,7 @@
 max_width = 80
 hard_tabs = false
 tab_spaces = 2
+indent_style = "Block"
 
 brace_style = "SameLineWhere"
 newline_style = "Auto"
@@ -9,5 +10,6 @@ control_brace_style = "AlwaysSameLine"
 imports_layout = "Vertical"
 fn_params_layout = "Tall"
 remove_nested_parens = true
+empty_item_single_line = true
 
 unstable_features = true

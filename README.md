@@ -1,7 +1,7 @@
 [![License: GPL v3](https://img.shields.io/badge/LICENSE-GPL_v3-blue?logo=gnu)](https://www.gnu.org/licenses/gpl-3.0)
 [![License: AGPL v3](https://img.shields.io/badge/LICENSE-AGPL_v3-blue?logo=gnu)](https://www.gnu.org/licenses/agpl-3.0)
 
-[![Change Log](https://img.shields.io/badge/CHANGELOG-0.1.0-limegreen?logo=markdown)](CHANGELOG.md)
+[![Change Log](https://img.shields.io/badge/CHANGELOG-0.1.1-limegreen?logo=markdown)](CHANGELOG.md)
 
 > ## Disclaimer
 > *All trademarks, third-party assets/logos, and brand names used in this repository/project are the property of their respective owners. 
