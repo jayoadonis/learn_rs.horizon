@@ -15,7 +15,7 @@
 > + Zero or more `bench` | `integration test`
 > + However, a package must contain at least one crate; either a `library crate`, a `binary crate`, or both
 
-## Overview cargo project structure
+## Overview Rust/Cargo project structure hierarchy
 ```bash
 workspace ---> package (concrete project) ---> crate ---> module
 ```
