@@ -9,7 +9,7 @@
 
 
 > [!NOTE]
-> ##### **Cargo package**, which represent a concrete project. It can <span style="color: red;font-weight: bold;font-size: 1.08rem;">*</span>contain:
+> ##### **Cargo package**, which represent a concrete project. It can <span style="color: red;font-weight: bold;font-size: 1.08rem;">&#42;</span>contain:
 > + Zero or more `binary crates` (can contain *unit test*)
 > + Zero or one `library crate` (can contain *unit test*)
 > + Zero or more `bench` | `integration test`
