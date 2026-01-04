@@ -64,7 +64,7 @@ pub fn immutable() {
   // z.push( ' ' ); //REM: ERROR, cannot mutate immutable variable 'z'.
   // z.push_str( "There" ); //REM: ERROR, cannot mutate immutable variable 'z'.
 
-  let k: [f32;4] = [1.0, 2.0, 3.0, 4.0];
+  let k: [f32; 4] = [1.0, 2.0, 3.0, 4.0];
   // k[0] = 1.5; //REM: ERROR, cannot mutate
 
   let v = &k[..=3]; //REM: slice, indices (0 ---> 3)
@@ -96,4 +96,8 @@ pub fn mutable() {
   let i: &mut [f32] = &mut k[..];
   i[3] += 0.1;
   // i = &mut k[..=2]; //REM: ERROR, only the 'address-of' can be mutated, not the 'identifier'
+
+  let mut t: &[f32] = &i[..];
+  // t[3] -= 0.1; //REM: ERROR, only the 'identifier can be reassigned, can not mutate the 'address-of'
+  t = &k[..];
 }
